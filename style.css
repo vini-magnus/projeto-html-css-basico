@@ -1,0 +1,99 @@
+/*zerando margem e padding e definfindo valores principais da tag pai*/
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+h1, h2 {
+    color: #111;
+}
+
+/*criando a barra de cima*/
+.top-bar {
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+}
+
+/*delimitando um cointainer centralizado na página*/
+.container {
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.headline {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+
+.subtitle {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.author {
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+.social-icons {
+    margin-top: 10px;
+
+}
+/*diminuindo a largura dos icones e colocando padding para alinhar com a borda*/
+.social-icon {
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+
+}
+
+/*estilisando a tag "a" para as cta's*/
+a {
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+
+}
+/*div content menor que a container para dar um efeito do conteúdo mais centralizado*/
+.content {
+    max-width: 648px;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+}
+/*definindo o estilo da div cta (call to action)*/
+.cta {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+/*fazendo ajustes na margem e no tamanho da fonte das figures*/
+figure {
+    margin: 40px 0px;
+    padding: 0;
+    font-size: 12px;
+}
+
+/*definindo estilo na imagem (tag filha) apenas dentro da tag figure (tag pai)*/
+figure>img {
+    width: 100%;
+}
+
+/*rodapé da página*/
+.footer{
+    background-color: #333;
+    height: 100px;
+}
